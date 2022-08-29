@@ -1,0 +1,87 @@
+{
+  "autors": [
+    {
+      "nome": "ana",
+      "id": 1
+    },
+    {
+      "nome": "eu",
+      "id": 2
+    },
+    {
+      "nome": "j.k. rowling",
+      "id": 3
+    },
+    {
+      "nome": "paula pimenta",
+      "id": 4
+    }
+  ],
+  "categorias": [
+    {
+      "nome": "romance",
+      "id": 1
+    },
+    {
+      "nome": "eu",
+      "id": 2
+    },
+    {
+      "nome": "terror",
+      "id": 3
+    },
+    {
+      "nome": "classico",
+      "id": 4
+    }
+  ],
+  "livros": [
+    {
+      "nome": "hp",
+      "autorId": 3,
+      "categoriaId": 3,
+      "editoraId": 3,
+      "id": 1
+    },
+    {
+      "nome": "fazendo meu filme",
+      "autorId": 4,
+      "categoriaId": 1,
+      "editoraId": 4,
+      "id": 2
+    },
+    {
+      "nome": "aaaaaaaa",
+      "autorId": 2,
+      "categoriaId": 1,
+      "editoraId": 6,
+      "id": 3
+    }
+  ],
+  "editoras": [
+    {
+      "nome": "azul",
+      "id": 1
+    },
+    {
+      "nome": "eu",
+      "id": 2
+    },
+    {
+      "nome": "rocco",
+      "id": 3
+    },
+    {
+      "nome": "arco-iris",
+      "id": 4
+    },
+    {
+      "nome": "aaaaaaaa",
+      "id": 5
+    },
+    {
+      "nome": "pagina",
+      "id": 6
+    }
+  ]
+}
