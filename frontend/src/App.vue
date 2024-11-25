@@ -20,17 +20,14 @@ import RodapeComp from "@/components/RodapeComp.vue";
   height: 100vh;
   font-weight: normal;
 }
-header,
-footer {
-  background-color: rgb(126, 73, 126);
-  color: white;
-  height: 15%;
-  font-size: 1.3rem;
-  display: flex;
-  align-items: center;
-  padding-left: 2rem;
+#RodapeComp {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
-/*main {
-  height: 140%;
-}*/
+
+#main {
+  position: relative;
+  padding-bottom: 100px; /* altura do rodapé */
+}
 </style>

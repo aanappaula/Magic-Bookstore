@@ -4,7 +4,7 @@ import MenuComp from "@/components/MenuComp.vue";
 <template>
   <header class="menu-superior">
     <div class="menu-esquerdo">
-      <span class="principal">Magicbookstore</span>
+      <span class="principal">Space Explorer</span>
     </div>
     <div class="menu-direito">
       <MenuComp />
@@ -21,6 +21,8 @@ a {
 header span {
   padding: 0 20px;
   font-family: "Secular One", sans-serif;
+  color: blue;
+  font-size: 30px;
 }
 .menu-superior {
   border-radius: 40px;

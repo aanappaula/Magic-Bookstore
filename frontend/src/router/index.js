@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
-import LivrosView from "../views/LivrosView.vue";
-import AutorsView from "../views/AutorsView.vue";
-import EditoraView from "../views/EditoraView.vue";
+import PlanetasView from "../views/PlanetasView.vue";
+import ClimaView from "../views/ClimaView.vue";
+import GravidadeView from "../views/GravidadeView.vue";
 import CategoriaView from "../views/CategoriaView.vue";
 
 const router = createRouter({
@@ -14,19 +14,19 @@ const router = createRouter({
       component: HomeView,
     },
     {
-      path: "/livros",
-      name: "livros",
-      component: LivrosView,
+      path: "/planeta",
+      name: "planeta",
+      component: PlanetasView,
     },
     {
-      path: "/autors",
-      name: "autors",
-      component: AutorsView,
+      path: "/clima",
+      name: "clima",
+      component: ClimaView,
     },
     {
-      path: "/editora",
-      name: "editora",
-      component: EditoraView,
+      path: "/gravidade",
+      name: "gravidade",
+      component: GravidadeView,
     },
     {
       path: "/categoria",

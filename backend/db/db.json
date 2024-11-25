@@ -1,87 +1,31 @@
 {
-  "autors": [
+  "climas": [
     {
-      "nome": "ana",
+      "nome": "Calor",
       "id": 1
-    },
-    {
-      "nome": "eu",
-      "id": 2
-    },
-    {
-      "nome": "j.k. rowling",
-      "id": 3
-    },
-    {
-      "nome": "paula pimenta",
-      "id": 4
     }
   ],
   "categorias": [
     {
-      "nome": "romance",
+      "nome": "Rochoso",
       "id": 1
-    },
-    {
-      "nome": "eu",
-      "id": 2
-    },
-    {
-      "nome": "terror",
-      "id": 3
-    },
-    {
-      "nome": "classico",
-      "id": 4
     }
   ],
-  "livros": [
+  "planetas": [
     {
-      "nome": "hp",
-      "autorId": 3,
-      "categoriaId": 3,
-      "editoraId": 3,
-      "id": 1
-    },
-    {
-      "nome": "fazendo meu filme",
-      "autorId": 4,
-      "categoriaId": 1,
-      "editoraId": 4,
-      "id": 2
-    },
-    {
-      "nome": "aaaaaaaa",
-      "autorId": 2,
-      "categoriaId": 1,
-      "editoraId": 6,
-      "id": 3
+      "id": 1,
+      "nome": "Marte",
+      "descricao": "Marte é conhecido como o 'planeta vermelho' devido à sua superfície rica em óxido de ferro, com características de um antigo ambiente aquático.",
+      "categoriaId": "1",
+      "gravidadeId": "1",
+      "climaId": "1",
+      "foto": "/uploads/1732494002567.webp"
     }
   ],
-  "editoras": [
+  "gravidades": [
     {
-      "nome": "azul",
+      "nome": "10",
       "id": 1
-    },
-    {
-      "nome": "eu",
-      "id": 2
-    },
-    {
-      "nome": "rocco",
-      "id": 3
-    },
-    {
-      "nome": "arco-iris",
-      "id": 4
-    },
-    {
-      "nome": "aaaaaaaa",
-      "id": 5
-    },
-    {
-      "nome": "pagina",
-      "id": 6
     }
   ]
 }
